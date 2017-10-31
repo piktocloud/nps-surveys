@@ -16,7 +16,6 @@ Gem::Specification.new do |s|
   s.test_files = Dir["spec/**/*"]
 
   s.add_dependency 'rails'
-  s.add_dependency 'foreigner'
   s.add_development_dependency 'rspec-rails'
   s.add_development_dependency 'rspec-its', '1.2.0'
   s.add_development_dependency 'test-unit', '3.0'

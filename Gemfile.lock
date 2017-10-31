@@ -2,7 +2,6 @@ PATH
   remote: .
   specs:
     nps_surveys (0.2.5)
-      foreigner
       rails
 
 GEM
@@ -41,8 +40,6 @@ GEM
     erubis (2.7.0)
     factory_girl (4.5.0)
       activesupport (>= 3.0.0)
-    foreigner (1.7.4)
-      activerecord (>= 3.0.0)
     hike (1.2.3)
     i18n (0.7.0)
     journey (1.0.4)

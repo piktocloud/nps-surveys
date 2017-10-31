@@ -1,4 +1,3 @@
-require 'foreigner'
 require 'nps_surveys/engine'
 
 module NPSSurveys
