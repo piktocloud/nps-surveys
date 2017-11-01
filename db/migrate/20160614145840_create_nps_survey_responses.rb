@@ -10,7 +10,7 @@ class CreateNPSSurveyResponses < ActiveRecord::Migration
       t.foreign_key :users
     end
 
-    add_index :nps_surveys_responses, [:survey, :user_id]
+    add_index :nps_surveys_responses, [:survey, :user_id], unique: true
   end
 
 
