@@ -9,5 +9,9 @@ class CreateNPSSurveyResponses < ActiveRecord::Migration
       t.timestamps
       t.foreign_key :users
     end
+
+    add_index :nps_surveys_responses, [:survey, :user_id]
   end
+
+
 end
